@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <math.h>
 
 int valid_change(void);
 
@@ -24,12 +25,15 @@ int main(void)
 
 int valid_change(void)
 {
-    int change;
+    float dollars;
 
     do
     {
-        change = get_int("Change owed: ");
+        dollars = get_float("Change owed: ");
     }
-    while (change < 0);
-    return change;
+    while (dollars < 0);
+
+    int cents = round(dollars * 100);
+
+    return cents;
 }
