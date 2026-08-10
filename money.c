@@ -19,7 +19,10 @@ int main(void)
 
     int pennies = change;
 
+    int total = quarters + dimes + nickels + pennies;
+
     printf("\nQuarters: %i\nDimes: %i\nNickels: %i\nPennies: %i\n", quarters, dimes, nickels, pennies);
+    printf("\nTotal: %i\n", total);
 }
 
 
