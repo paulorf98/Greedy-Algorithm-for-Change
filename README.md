@@ -1,3 +1,9 @@
+```
+⚠️ NOTE: This program uses the official CS50 library (`cs50.h`).
+It will NOT compile or run on a standard machine unless you have the CS50 library
+installed or you are running it inside the CS50 environment/codespace.
+```
+
 # Cash
 
 A simple C program that calculates the minimum number of U.S. coins
