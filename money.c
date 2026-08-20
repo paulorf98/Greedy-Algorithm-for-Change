@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 #include <math.h>
 
 int valid_change(void);
@@ -32,7 +31,8 @@ int valid_change(void)
 
     do
     {
-        dollars = get_float("Change owed: ");
+        printf("Change owed (example: 0.41): ");
+        scanf("%f", &dollars);
     }
     while (dollars < 0);
 

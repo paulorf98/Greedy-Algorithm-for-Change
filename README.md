@@ -1,9 +1,3 @@
-```
-⚠️ NOTE: This program uses the official CS50 library (`cs50.h`).
-It will NOT compile or run on a standard machine unless you have the CS50 library
-installed or you are running it inside the CS50 environment/codespace.
-```
-
 # Cash
 
 A simple C program that calculates the minimum number of U.S. coins
@@ -49,13 +43,12 @@ Pennies: 1
 ## Requirements
 
 - C compiler (e.g., GCC or Clang)
-- CS50 Library (`cs50.h`)
 - Math library (`math.h`)
 
 ## Compilation
 
 ```bash
-clang cash.c -o cash -lcs50 -lm
+clang cash.c -o cash
 ```
 
 Or, if you're using the CS50 environment:
